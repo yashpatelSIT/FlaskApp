@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-print("User Authentication Feature")
+print("Welcome to the Flask Application")
 
 @app.route('/')
 def home():
